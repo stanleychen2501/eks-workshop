@@ -1,5 +1,5 @@
 ---
-title: "Cleanup"
+title: "清理環境<Cleanup>"
 date: 2020-07-08T09:36:58-04:00
 draft: false
 weight: 90
@@ -8,7 +8,7 @@ tags:
   - CON203
 ---
 
-停止proxy並刪除dashboard的部署
+停止proxy並刪除部署的dashboard
 
 ```bash
 # 把 proxy 殺掉
