@@ -12,7 +12,7 @@ tags:
 
 {{< youtube 0jWHTJ5Znt8 >}}
 
-In this Chapter, we will deploy the official Kubernetes dashboard, and connect
-through our Cloud9 Workspace.
+在此章節，我們會部署一個Kubenetes 官方dashboard，並透過Cloud9 Workspace做連結。
+
 
 ![dashboard](/images/dashboard.png)
