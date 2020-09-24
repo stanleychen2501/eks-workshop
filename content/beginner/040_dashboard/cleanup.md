@@ -8,13 +8,13 @@ tags:
   - CON203
 ---
 
-Stop the proxy and delete the dashboard deployment
+停止proxy並刪除dashboard的部署
 
 ```bash
-# kill proxy
+# 把 proxy 殺掉
 pkill -f 'kubectl proxy --port=8080'
 
-# delete dashboard
+# 刪除 dashboard
 kubectl delete -f https://raw.githubusercontent.com/kubernetes/dashboard/${DASHBOARD_VERSION}/aio/deploy/recommended.yaml
 
 unset DASHBOARD_VERSION

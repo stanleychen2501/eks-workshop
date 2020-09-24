@@ -1,5 +1,5 @@
 ---
-title: "Deploy the Kubernetes Dashboard"
+title: "部署Kubernetes Dashboard<Deploy the Kubernetes Dashboard>"
 chapter: true
 weight: 40
 pre: '<i class="fa fa-film" aria-hidden="true"></i> '
@@ -8,7 +8,7 @@ tags:
   - CON203
 ---
 
-# Deploy the Kubernetes Dashboard
+# 部署 Kubernetes Dashboard
 
 {{< youtube 0jWHTJ5Znt8 >}}
 
