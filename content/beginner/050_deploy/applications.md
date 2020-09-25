@@ -36,13 +36,12 @@ spec:
           protocol: TCP
 {{< /output >}}
 
-In the sample file above, we describe the service and  *how* it should be deployed.
+<!---In the sample file above, we describe the service and  *how* it should be deployed.
 We will write this description to the kubernetes api using kubectl, and kubernetes
-will ensure our preferences are met as the application is deployed.<br>
+will ensure our preferences are met as the application is deployed.<br>--->
 
-在上述範例檔案中，描述了服務與如何部署<br>
-我們將透過kubectl寫入描述內容到kubenetes api中，並且kubenetes將會確保在部署後，performance滿足應用程式需求<br>
+在上述範例檔案中，描述了服務與如何部署，我們將透過kubectl寫入描述內容到kubenetes api中，並且kubenetes將會確保在部署後，performance滿足應用程式需求<br>
 
-The containers listen on port 3000, and native service discovery will be used
-to locate the running containers and communicate with them.<br>
+<!---The containers listen on port 3000, and native service discovery will be used
+to locate the running containers and communicate with them.<br>--->
 容器服務監聽 3000 port，將使用本機服務發現並與正在運行的容器溝通
